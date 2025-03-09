@@ -3,23 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore WDD 131 with Alaphat Mob Kateregga. Learn about web development, best practices, and responsive design.">
+    <meta name="keywords" content="WDD 131, Web Development, HTML, CSS, Alaphat Mob Kateregga">
+    <meta name="author" content="Alaphat Mob Kateregga">
     <title>Alaphat Mob Kateregga - WDD 131</title>
     <link rel="stylesheet" href="styles/layout.css">
 </head>
 <body>
     <header>
         <h1>Header Content</h1>
-        <nav>
+        <nav aria-label="Main Navigation">
             <ul class="navigation">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
+        <h1>Welcome to WDD 131</h1>
         <section>
             <h2>Main Content</h2>
             <p>This is the main content section of the page.</p>
@@ -32,7 +36,11 @@
     </aside>
 
     <footer>
-        <p>&copy; 2025<span id="year"></span> Alaphat Mob Kateregga. All rights reserved.</p>
+        <p>&copy; <span id="year"></span> Alaphat Mob Kateregga. All rights reserved.</p>
     </footer>
+
+    <script>
+        document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
 </body>
 </html>
