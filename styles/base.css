@@ -1,0 +1,222 @@
+header {
+    display: flex;
+    align-items: center;
+    background-color: #0e4875;
+    padding: 10px;
+    margin-bottom: -1rem;
+    height: auto;
+    justify-content: center;
+    font-size: 13px;
+    color: #fff;
+  }
+
+@media (min-width: 640px) {
+    .navigation {
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+      background-color: #333;
+      align-items: center;
+    }
+    .navigation li {
+      flex: 1 1 auto;
+    }
+    .navigation a {
+      display: block;
+      color: #eee;
+      padding: 0.75rem;
+      text-decoration: none;
+      text-align: center;
+      font-size: 20px;
+    }
+    
+    .navigation a:hover {
+      font-weight: 700;
+      text-decoration: underline;
+      text-decoration-color: yellow;
+    }
+
+    .horizontal-layout {
+        display: flex; /* Enables horizontal alignment */
+        gap: 50px; /* Adds spacing between Course Work and Location */
+        margin: 0px 40px;
+        height: 700px;
+        
+    }
+    .resources  {
+        padding: 10px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.968);
+        text-align: center;
+        width: 400px;
+        height: 650px;
+    }
+     .aboutme  {
+      padding: 10px;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.968);
+      text-align: center;
+      max-width: 900px;
+      height: 650px;
+     }
+
+    .profile-pic, .flag {
+      height: 50px;
+      width: 50px;
+    }
+
+.aboutme h2 {
+    text-align: center;
+    background-color: #1b4c7d;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.about-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text-content {
+    flex: 1;
+    padding-right: 10px;
+}
+
+.profile-img img {
+    width: 120px;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.uganda-content {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.flag {
+    flex: 0 0 100px;
+    text-align: center;
+}
+
+.flag img {
+    width: 100px;
+    height: auto;
+}
+
+.country-text {
+    flex: 1;
+    padding-left: 10px;
+}
+
+hr {
+    border: none;
+    height: 2px;
+    background-color: #ccc;
+    margin: 10px 0;
+}
+
+.resources ul {
+  margin-top: 200px;  
+  font-size: 18px;
+
+}
+
+   /* Footer */
+   footer {
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 5%;
+    font-size: 30px;
+}
+}
+
+  section h2 {
+    left: 0;
+    background-color:  #0d3b66; /* Match theme color */
+    color: white; /* Make text visible */
+    padding: 1px;
+    margin: 0; /* Remove default margins */
+    text-align: center;
+    border-top-left-radius: 8px; /* Rounded corners at top */
+    border-top-right-radius: 8px;
+    font-size: 25px;
+  }
+
+  @media (max-width: 640px) {
+
+    .navigation {
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+      background-color: #333;
+      align-items: center;
+    }
+    .navigation li {
+      flex: 1 1 auto;
+    }
+    .navigation a {
+      display: block;
+      color: #eee;
+      padding: 0.75rem;
+      text-decoration: none;
+      text-align: center;
+      font-size: 20px;
+    }
+    
+    .navigation a:hover {
+      font-weight: 700;
+      text-decoration: underline;
+      text-decoration-color: yellow;
+    }
+
+.horizontal-layout {
+    height: 900px;
+}
+
+.profile-pic, .flag img {
+  height: 50px;
+  width: 50px;
+}
+
+.resources ul {
+  margin-top: 80px; 
+  font-size: 20px; 
+
+}
+
+  .aboutme  {
+    border: 1px solid #ddd;
+    padding: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+
+h2 {
+  font-size: 30px;
+  color: #0e4875;
+  padding: 2px;
+  margin: 5px 30px;
+}
+
+}
+
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  footer p {
+    margin: 5px 0;
+    right: 10px;
+  }
+
+  
+  footer p:last-of-type {
+    color: rgb(220, 225, 164); /* Change this to your preferred color */
+    font-weight: bold; /* Makes it stand out */
+
+  }
