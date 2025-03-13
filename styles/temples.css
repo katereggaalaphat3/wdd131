@@ -1,0 +1,154 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Header styling */
+header {
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    box-shadow: 0 0 15px #303030;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+/* Hamburger Menu */
+#menu-button {
+    background: none;
+    border: none;
+    font-size: 1.8rem;
+    color: white;
+    cursor: pointer;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    flex-direction: column;
+    background: #444;
+    position: absolute;
+    left: 0;
+}
+
+nav ul li {
+    text-align: center;
+    padding: 10px;
+    flex: 1 1 ;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    font-size: large;
+}
+
+nav ul li:hover {
+    background: #211f1f;
+    text-decoration: underline;
+    transform: scale(1.15);
+}
+
+nav ul li a:active {
+    color: yellow; 
+}
+
+/* Show menu when active */
+nav.active ul {
+    display: flex;
+}
+
+@media screen and (max-width: 780px) {
+    nav {
+        display: none; /* Hide menu by default on mobile */
+        flex-direction: column;
+        background-color: #333;
+        position: absolute;
+        top: 50px;
+        left: 0;
+        width: 100%;
+        padding: 10px;
+    }
+    
+    nav.open {
+        display: flex; /* Show menu when "open" class is added */
+    }
+    
+    nav ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+    
+    nav ul li {
+        padding: 10px;
+        text-align: center;
+        font-size: large;
+    }
+    
+    nav ul li a {
+        color: white;
+        text-decoration: none;
+        font-size: 18px;
+    }
+    
+}
+
+/* Gallery styling */
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    padding: 10px;
+    margin-top: 1px;
+}
+
+figure {
+    background: white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Footer styling */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  footer p {
+    margin: 5px 0;
+    right: 10px;
+  }
+
+  
+  footer p:last-of-type {
+    color: rgb(220, 225, 164); /* Change this to your preferred color */
+    font-weight: bold; /* Makes it stand out */
+
+  }
