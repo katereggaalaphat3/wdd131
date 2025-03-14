@@ -1,6 +1,4 @@
-/* Larger screens (tablet and desktop) */
 @media screen and (min-width: 780px) {
-    /* Header */
     header {
         justify-content: space-between;
     }
@@ -9,9 +7,8 @@
         margin-bottom: 1px;
     }
 
-    /* Navigation */
     #menu-button {
-        display: none; /* Hide hamburger menu on larger screens */
+        display: none;
     }
 
     nav {
@@ -19,7 +16,7 @@
     }
 
     nav ul {
-        display: flex; /* Show navigation links in a row */
+        display: flex;
         flex-direction: row;
         position: static;
         background: none;
@@ -34,9 +31,8 @@
         background: rgba(255, 255, 255, 0.2);
     }
 
-    /* Gallery */
     .gallery {
-        grid-template-columns: repeat(3, 1fr); /* Display images in 3 columns */
+        grid-template-columns: repeat(3, 1fr);
         gap: 20px;
         padding: 30px;
         margin-top: 1px;
@@ -51,6 +47,6 @@
     }
 
     img:hover {
-        transform: scale(1.05); /* Slight zoom effect on hover */
+        transform: scale(1.05);
     }
 }
