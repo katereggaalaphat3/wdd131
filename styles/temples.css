@@ -141,12 +141,6 @@ footer {
     padding: 10px 0;
   }
   
-  footer p {
-    margin: 5px 0;
-    right: 10px;
-  }
-
-  
   footer p:last-of-type {
     color: rgb(220, 225, 164); /* Change this to your preferred color */
     font-weight: bold; /* Makes it stand out */
